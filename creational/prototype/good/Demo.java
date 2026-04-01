@@ -60,3 +60,9 @@ class Demo {
 //             accessories : ["Bell", "Phone Mount"], 
 //             tags :["Urban", "Sale-2026"]       
 //         }
+
+
+// For the mutable datatypes just use deepcopy or ifb they are immutable use the shallow copy 
+// shallow copy - two objects will have the same reference and when u try to update both will be effetced
+// deep copy - two objects are independent on each other 
+// some times u will be also used to have some hybrid pattern (shallow+deep)
